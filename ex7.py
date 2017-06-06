@@ -1,5 +1,5 @@
 print "Mary had a littel lamb."
-print "Its fleece was white as %s." % 'snow'
+print "Its fleece was white as %s." % 'snow' 
 print "And everywhere that Mary went."
 print "." * 10 # what'd that do?
 
@@ -17,5 +17,5 @@ end11 = "e"
 end12 = "r"
 
 # whatch that comma at the end. try removing it to see what happens
-print end1 + end2 + end3 + end4 + end5 +  end6,
+print end1 + end2 + end3 + end4 + end5 +  end6, # Without coma it'd be longer than 80 characters, which in Python is bad style.
 print end7 + end8 + end9 + end10 + end11 + end12
