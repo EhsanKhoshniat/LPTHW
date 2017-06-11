@@ -6,3 +6,7 @@ print "The script is called:", script
 print "Your first variable is:", first
 print "Your second variable is:", second
 print "Your third variable is:", third
+
+yes_or_no = raw_input("Did you get it? ")
+
+print "hmm, %s" % yes_or_no
