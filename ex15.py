@@ -13,3 +13,5 @@ file_agian = raw_input("> ")	#open file in another way, with raw_input method
 txt_again = open(file_agian)	#opens file defined by raw_input
 
 print txt_again.read()			#read the file
+
+txt_again.close()
