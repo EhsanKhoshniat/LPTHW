@@ -15,12 +15,23 @@
 # for num in numbers:
 # 	print num
 
+# def printnum(n, x):
+# 	i = 0
+# 	numbers = []
+# 	while i < n:
+# 		numbers.append(i)
+# 		i += x
+# 	for num in numbers:
+# 		print num
+
+# printnum(6, 2)
+
 def printnum(n, x):
 	i = 0
 	numbers = []
-	while i < n:
+	for i in range(0, n, x):
 		numbers.append(i)
-		i += x
+		i += 1
 	for num in numbers:
 		print num
 
